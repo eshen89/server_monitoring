@@ -49,7 +49,7 @@ mvn spring-boot:run
 ```
 Using the services
 ------
-##### Start the service
+#### Start the service
 `GET /monitor/start?interval=&url=`
 
 ##### Fields
@@ -88,7 +88,7 @@ Links             : {}
 ParsedHtml        : mshtml.HTMLDocumentClass
 RawContentLength  : 23
 ```
-##### Stop the service
+#### Stop the service
 `GET /monitor/stop`
 ##### Example
 ```$xslt
@@ -112,7 +112,7 @@ Links             : {}
 ParsedHtml        : mshtml.HTMLDocumentClass
 RawContentLength  : 19
 ```
-##### Display an overview of the monitoring history
+#### Display an overview of the monitoring history
 `GET /monitor/overview`
 ##### Example
 ```$xslt
