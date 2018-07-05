@@ -22,7 +22,6 @@ public class MonitorController {
     private static final Logger logger = LoggerFactory.getLogger(MonitorController.class);
 
     private static MonitorStatus currentStatus = MonitorStatus.IDLING;
-    private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping(value = "/start", method = RequestMethod.GET)
     public String start(@RequestParam(value = "interval", defaultValue = "1") String interval,
