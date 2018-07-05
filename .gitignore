@@ -1,2 +1,5 @@
 /log/*
 /target/*
+.classpath
+server_monitoring.eml
+server_monitoring.userlibraries
